@@ -70,7 +70,7 @@ const Home = () => {
               } else if (item.value === 1) {
                 upVote.push(item);
               }
-        
+        return {downVote,upVote}
     });
 
     setVotes(upVote.length - downVote.length);
