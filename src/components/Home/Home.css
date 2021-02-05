@@ -1,0 +1,89 @@
+.home__button {
+  padding: 1rem;
+  margin: 4rem;
+}
+.home__button button {
+  
+  background-color: white;
+    color: black;
+    border: 1px solid lightgrey;
+}
+.home__button button:hover {
+    background-color: #f0822f;
+    }
+.home__child {
+  width: calc(25% - 10px);
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 300px;
+  border: 1px solid lightgray;
+}
+
+.MuiGridListTile-root {
+  width: 250px !important;
+  margin-bottom: 8rem;
+  padding-left: 3rem;
+  margin-right: 2rem;
+}
+.MuiGridListTileBar-root {
+  background: transparent !important;
+}
+.home__favorite {
+  border-color: red;
+}
+
+.MuiGridListTile-tile img {
+  opacity: 0.8;
+  padding: 1rem;
+}
+
+.home__voting {
+    position: absolute;
+    top: 100%;
+    left: 11%;
+}
+.MuiGridListTile-imgFullHeight {
+  height: 70% !important;
+}
+
+.home__votingBtns {
+  display: flex;
+}
+
+.home__votingDown {
+  padding-left: 10px;
+}
+
+.home__votingDown .MuiSvgIcon-root {
+  color: #ff0026;
+  cursor: pointer;
+}
+.home__votingUp .MuiSvgIcon-root {
+  color: #073525;
+  cursor: pointer;
+}
+.MuiGridListTile-tile {
+    overflow: unset !important;
+}
+.MuiGridListTile-imgFullWidth{
+    object-fit: contain;
+    height: 150px;
+}
+.MuiGridListTileBar-actionIcon{
+    margin-top: 5rem;
+}
+@media screen 
+  and (max-width: 768px) {
+    .MuiGridListTile-root{
+        overflow-y: unset;
+    }
+   
+    .MuiGridListTile-root{
+        
+    margin-right: 0;
+
+    }
+    .MuiGridListTileBar-titleWrapActionPosRight{
+        margin-right: 4rem !important;
+    }
+}
